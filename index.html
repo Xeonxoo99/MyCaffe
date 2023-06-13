@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Caffe :: Remember me</title>
+</head>
+
+<body>
+    <!-- 카페이름, 상단 메뉴 (스크롤 시 고정) -->
+    <div class="fix">
+        <div class="header">
+            <h2 class="title">Remember me</h2>
+            <div class="login"><span>Login</span></div>
+        </div>
+        <div class="menu top_menu">
+            <ul>
+                <li class="sub_menu"><a href="$">Remember me</a></li>
+                <li class="sub_menu"><a href="$">Coffee</a></li>
+                <li class="sub_menu"><a href="$">Latte</a></li>
+                <li class="sub_menu"><a href="$">Cake</a></li>
+                <li class="sub_menu"><a href="$">Beer</a></li>
+                <p></p>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 카페메인사진(3장 슬라이드) -->
+
+    <div class="Slidesbackground">
+        <span class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://i.ibb.co/HT6kCfL/Kakao-Talk-20230606-190812102.jpg" class="slideshow-image">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://i.ibb.co/VYQF175/Kakao-Talk-20230606-190812102-01.jpg" class="slideshow-image">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://i.ibb.co/PtzJL1W/Kakao-Talk-20230608-192408889.jpg" class="slideshow-image">
+            </div>
+        </span>
+    </div>
+    <div class="aside">
+        <a class="bi bi-instagram" href="https://www.instagram.com"></a>
+        <a class="bi bi-facebook" href="https://www.instagram.com"></a>
+    </div>
+
+    <!-- 콘텐츠 중 좌측 (메뉴, 이벤트, 공모전등) -->
+    <h3>Contents</h3>
+
+    <section class="static contents">
+
+        <div class="contents_left">
+            <ul class="grid" id="grid">
+                <li class="grid-item" style="position: absolute; left:0%; top:0px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/happy event.png" alt="Happy June Event" width="258" height="212">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">Event</p>
+                            <p class="title2 ellipsis2">
+                                Happy June Event
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item" style="position: absolute; left:33.3333%; top:0px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/water melon.png" alt="water melon" width="258" height="336">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">Menu</p>
+                            <p class="title2 ellipsis2">
+                                이 달의 음료
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item" style="position: absolute; left:66.6667%; top:0px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/corn.png" alt="이 달만 즐길 수 있는 초당 옥수수" width="258" height="336">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">Menu</p>
+                            <p class="title2 ellipsis2">
+                                이 달만 즐길 수 있는 초당 옥수수
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item" style="position: absolute; left:0%; top:352.6px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/winner.png" alt="이 달의 수상작" width="258" height="212">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">Competition</p>
+                            <p class="title2 ellipsis2">
+                                이 달의 수상작
+                            </p>
+                        </div>
+                </li>
+                <li class="grid-item" style="position: absolute; left:33.3333%; top:476.6px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/summer.png" alt="여름이었다." width="258" height="336">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">Menu</p>
+                            <p class="title2 ellipsis2">
+                                여름이었다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item" style="position: absolute; left:66.6667%; top:479.225px;">
+                    <a href="#">
+                        <div class="grid-item-img">
+                            <img src="/images/main/left.png" alt="HAHAHAHAHA" width="258" height="212">
+                        </div>
+                        <div class="grid-item-txt">
+                            <p class="cate">사이트 주인장</p>
+                            <p class="title2 ellipsis2">
+                                사이트 주인장
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 콘텐츠 중 우측 (카페 가맹 문의) -->
+        <div class="contents_right"
+            style="background-image: url('/images/main/45c23b4f49e340c23abdaaa8ce3f407d.jpg'); margin: 40px 140px 0 -10px; width: 300px; height: 900px;">
+            <h3 style="margin:20px 60px;">
+                내 가족이 먹는다고,
+                <br>
+                생각하지 않는 그런 카페
+            </h3>
+            <div class="contents-cafe-item">
+                <img src="/images/main/asd.png" alt="오픈하고 싶은 카페">
+                <div class="txt">
+                    <h4>오픈하고 싶은 카페</h4>
+                    <p class="con">
+                        언제든 방문하여, 사람들과
+                        <br>
+                        이야기하며 공부도 할 수 있는 카페
+                    </p>
+                </div>
+                <a href="#" target="_self">인테리어 보기 ></a>
+            </div>
+            <div class="contents-cafe-item">
+                <img src="/images/main/asdf.png" alt="가맹 개설 안내">
+                <div class="txt">
+                    <h4>가맹 개설 안내</h4>
+                    <p class="con">
+                        가맹점 개설을 위한 절차를
+                        <br>
+                        자세하게 안내드립니다.
+                    </p>
+                </div>
+                <a href="#" target="_self">개설 절차 보기 ></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 굿즈? 할 지 고민 중 -->
+    <!-- <div class=""></div> -->
+
+    <!-- 사진 여러장 예쁘게 놓기 -->
+    <section class="Identity">
+        <div class="statics">
+            <h3>
+                <img src="/images/main/summer1.png" alt="배너1">
+            </h3>
+
+            <div class="ha-bx1">
+                <a href="#" target="_self" class="tit-ar">
+                    <img src="/images/main/baaa2.png" alt="배너2">
+                    <p>
+                        '좋은', 사람들이
+                        <br>
+                        '좋은', 원두로
+                        <br>
+                        '좋은', 커피를 내리는 곳
+                        <br>
+                        바로 remember me입니다.
+                    </p>
+                </a>
+                <a href="#" target="_self" class="pho-ar">
+                    <img src="/images/main/0b2fd4801d03fde3a349ac1ffca4dc73.jpg" alt="배너3">
+                </a>
+            </div>
+            <div class="mov-ar">
+                <img src="https://i.pinimg.com/originals/85/c2/ff/85c2ff4b8618982863640ece548e0526.gif" alt="배너5" >
+            </div>
+        </div>
+    </section>
+
+    <!-- 브랜드 정보 -->
+    <div class="end">
+        <div class="box bottom_menu">
+            <ul>
+                <li class="sub_menu"><a href="$">소개 </a></li>
+                <li class="sub_menu"><a href="$">채용정보 </a></li>
+                <li class="sub_menu"><a href="$">이용약관 </a></li>
+                <li class="sub_menu"><a href="$">개인정보처리방침 </a></li>
+                <li class="sub_menu"><a href="$">청소년보호정책 </a></li>
+                <li class="sub_menu"><a href="$">전자금융거래약관 </a></li>
+                <li class="sub_menu"><a href="$">제휴광고 </a></li>
+            </ul>
+
+            <div class="end__2">
+                <div class="information">
+                    <p> 주식회사 000 </p>
+                    <p> 서울특별시 관악구 땡땡로 1000 (봉천동, 000) </p>
+                    <p> 사업자등록번호: 그런 건 없습니다~ | 통신판매업신고: 공부용입니다. </p>
+                    <p> 대표이사: 만들어도 된다고 해주신 사장님 </p>
+                </div>
+                <div class="CS">
+                    <span>고객센터</span>
+                    <p> 주소는 어디일까요?? 그런건 없습니다 :'(</p>
+                    <p> TEL ) 00-0000-0000 (초당 1,000원)</p>
+                    <p> FAX ) 00-0000-0000 </p>
+                    <button class="btn">문의하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</html>
